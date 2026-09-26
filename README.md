@@ -35,7 +35,7 @@ pip install numpy matplotlib torch scipy
 Run the main experiment with:
 
 ```bash
-python inverse_problem.py --pretrain-epochs 4000 --inverse-epochs 14000
+python experiments.py --pretrain-epochs 4000 --inverse-epochs 14000
 ```
 The script automatically uses CUDA if a compatible GPU is available, otherwise it falls back to CPU but training can be significantly slower on CPU-only machines.
 
