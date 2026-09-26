@@ -26,6 +26,13 @@ python experiments/inverse_problem.py --pretrain-epochs 4000 --inverse-epochs 14
 ```
 The script automatically uses CUDA if a compatible GPU is available, otherwise it falls back to CPU but training can be significantly slower on CPU-only machines.
 
+## Notebook
+An interactive Jupyter notebook is also available in:
+
+`notebooks/prototype.ipynb`
+
+It provides a step-by-step version of the experiment and can be used to inspect the model, training process and results interactively.
+
 
 
 
