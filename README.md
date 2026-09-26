@@ -1,16 +1,16 @@
 # protoype-pinn-forest-dynamics
 PINN prototype developed in preparation for the Made in France postdoctoral project  including reaction-diffusion, light competition : 
 
-$$
+```math
 \frac{\partial u_i}{\partial t}
 =
-D_i\Delta u_i
+D_i \Delta u_i
 +
 r_i u_i
 (1-u_i)
-\left(1-\sum_{j=1}^{n}u_j\right)
-\exp\left(-\sum_{j=1}^{n}\alpha_j u_j\right)
-$$
+\left(1-\sum_j u_j\right)
+\exp\left(-\sum_j \alpha_j u_j\right)
+```
 
 with inverse parameter estimation and CUDA training.
 
