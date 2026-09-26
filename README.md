@@ -7,4 +7,6 @@ Create and activate a virtual environment:
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate`
+
+## Install dependancies 
