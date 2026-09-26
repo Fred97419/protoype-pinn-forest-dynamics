@@ -24,10 +24,8 @@ Run the main experiment with:
 ```bash
 python experiments/inverse_problem.py --pretrain-epochs 4000 --inverse-epochs 14000
 ```
-```markdown
-The script automatically uses CUDA if a compatible GPU is available, otherwise it falls back to CPU.
+The script automatically uses CUDA if a compatible GPU is available, otherwise it falls back to CPU but training can be significantly slower on CPU-only machines.
 
-```
 
 
 
