@@ -1346,13 +1346,13 @@ def pretrain(
 ):
 
     D_fixed = torch.tensor(
-        params["D_true"],
+        params["D_initial_guess"],
         dtype=torch.float32,
         device=device
     )
 
     r_fixed = torch.tensor(
-        params["r_true"],
+        params["r_initial_guess"],
         dtype=torch.float32,
         device=device
     )
